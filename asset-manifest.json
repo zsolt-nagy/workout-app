@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/zsolt-nagy.github.io/workout-app/static/css/main.23892047.chunk.css",
+    "main.js": "/zsolt-nagy.github.io/workout-app/static/js/main.d4a0b183.chunk.js",
+    "main.js.map": "/zsolt-nagy.github.io/workout-app/static/js/main.d4a0b183.chunk.js.map",
+    "runtime-main.js": "/zsolt-nagy.github.io/workout-app/static/js/runtime-main.72638b1a.js",
+    "runtime-main.js.map": "/zsolt-nagy.github.io/workout-app/static/js/runtime-main.72638b1a.js.map",
+    "static/js/2.e232b0eb.chunk.js": "/zsolt-nagy.github.io/workout-app/static/js/2.e232b0eb.chunk.js",
+    "static/js/2.e232b0eb.chunk.js.map": "/zsolt-nagy.github.io/workout-app/static/js/2.e232b0eb.chunk.js.map",
+    "static/js/3.30a49f9c.chunk.js": "/zsolt-nagy.github.io/workout-app/static/js/3.30a49f9c.chunk.js",
+    "static/js/3.30a49f9c.chunk.js.map": "/zsolt-nagy.github.io/workout-app/static/js/3.30a49f9c.chunk.js.map",
+    "index.html": "/zsolt-nagy.github.io/workout-app/index.html",
+    "static/css/main.23892047.chunk.css.map": "/zsolt-nagy.github.io/workout-app/static/css/main.23892047.chunk.css.map",
+    "static/js/2.e232b0eb.chunk.js.LICENSE.txt": "/zsolt-nagy.github.io/workout-app/static/js/2.e232b0eb.chunk.js.LICENSE.txt",
+    "static/media/edit-solid.4ffe848a.svg": "/zsolt-nagy.github.io/workout-app/static/media/edit-solid.4ffe848a.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.72638b1a.js",
+    "static/js/2.e232b0eb.chunk.js",
+    "static/css/main.23892047.chunk.css",
+    "static/js/main.d4a0b183.chunk.js"
+  ]
+}
