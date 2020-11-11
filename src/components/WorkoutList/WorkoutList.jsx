@@ -4,7 +4,9 @@ import './WorkoutList.css';
 
 export default function WorkoutList({ items }) {
     const markup = items.map( item => 
-        <WorkoutItem key={item.key} exercise={item.exercise} reps={item.reps} />);
+        <WorkoutItem key={item.key} 
+                     exercise={item.exercise} 
+                     reps={item.reps} />);
 
     return (
         <div className="workout-list-container">

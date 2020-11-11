@@ -4,7 +4,7 @@ import editSolid from "./edit-solid.svg";
 
 export default function WorkoutItem(props) {
     return (
-        <div class="workout-item">
+        <div className="workout-item">
             {props.exercise} ({props.reps})
             <img src={editSolid} 
                  alt="Edit workout" 

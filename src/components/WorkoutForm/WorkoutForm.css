@@ -1,0 +1,32 @@
+:root {
+    --main-input-color: #8854d0;
+    --hover-input-color: #a47cdb;
+}
+
+input {
+    padding: 8px; 
+    margin: 0 10px;
+}
+
+button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    color: var(--main-input-color);
+    text-decoration: none;
+    font-weight: 500;
+    border: 2px solid var(--main-input-color);
+    box-shadow: 2px 2px 6px rgba(106, 54, 158, 0.4);
+    margin: 0.5rem;
+    cursor: pointer;
+    color: whitesmoke;
+    background-color: var(--main-input-color);    
+}
+ 
+button:hover {
+    background-color: var(--hover-input-color);
+    border: 2px solid var(--hover-input-color);
+    color: whitesmoke;
+    box-shadow: 2px 2px 6px rgba(106, 54, 158, 0.9);
+    transition: background-color 0.25s, border 0.25s, color 0.25s, box-shadow 0.25s;
+}
+ 
