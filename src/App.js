@@ -23,6 +23,20 @@ function App() {
     setData( oldData => [...oldData, {exercise, reps, key}]);
   }
 
+  const handleUpdate = (key, exercise, reps) => {
+    setData( oldData => oldData.map( item => {
+      if (key === item.key) {
+        return {
+          exercise,
+          reps,
+          key
+        };
+      } else {
+        return item;
+      }
+    }) );
+  };
+
   return (
     <div className="App">
       <header className="App-header">
@@ -31,7 +45,7 @@ function App() {
       <WorkoutForm 
         handleClear={handleClear} 
         handleAdd={handleAdd} />
-      <WorkoutList items={data} />
+      <WorkoutList items={data} handleUpdate={handleUpdate} />
     </div>
   );
 }
